@@ -1,0 +1,31 @@
+[project]
+name = "m-editor"
+version = "0.1.0"
+description = "A simple text editor"
+license = "MIT"
+homepage = "https://github.com/jinfagang/m"
+repository = "https://github.com/jinfagang/m"
+keywords = ["editor", "text", "terminal"]
+readme = "README.md"
+authors = ["Jin Fagang <jinfagang19@gmail.com>"]
+
+[dependencies]
+gapbuffer = "0.1.1"
+unicode-width = "0.1.1"
+clippy = {version = "*", optional = true}
+regex = "0.1"
+lazy_static = "0.2"
+clipboard = "0.4.6"
+
+
+[dependencies.rustbox]
+git = "https://github.com/gchp/rustbox"
+
+[lib]
+name = "m"
+path = "src/m/lib.rs"
+
+[[bin]]
+path = "src/main.rs"
+name = "m"
+doc = false
