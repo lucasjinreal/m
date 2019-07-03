@@ -23,8 +23,9 @@ Below the final design of our brand new *m editor*:
 
 Above shortcuts were already implemented in **m**! Just start and check it out, you can easily do your modification on *m*!
 
+
 **note**:
-I am really welcome rustians send me PR if you are interested in build a self-defined editor! Do u support our brand new design of *m*? 😆 it should save lots of time in this way!! And very much intuitive.
+This README is edit with m, and it's very comfortable than vim!! I am really welcome rustians send me PR if you are interested in build a self-defined editor! Do u support our brand new design of *m*? 😆 it should save lots of time in this way!! And very much intuitive.
 
 
 
@@ -42,6 +43,10 @@ if you got some error of `#![feature] may not be used on stable channel`, you ca
 rustup override set nightly
 ```
 
+apt-get and brew install will coming soon...
+
+
+
 ## Todo
 
 We continues make function fully support of *m*, also make it easy to install from `apt-get` or `brew`. We will have those function does not support yet, if you interested, welcome to PR!
@@ -50,9 +55,11 @@ We continues make function fully support of *m*, also make it easy to install fr
 - [ ] fix some bug;
 - [ ] using shift and arrow key to select text;
 - [ ] maybe merges more function to m;
+- [ ] new create file when filename does not exist;
 - [ ] Adding hightlights to certain content such as codes and markdowns.
 
 again, if you want learn rust and like to written a terminal editor with yourself defined shortcuts, you can start **m** and fork it!!
+
 
 ## Copyright
 
