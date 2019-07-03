@@ -2,6 +2,8 @@
 
 ![](https://s2.ax1x.com/2019/07/03/ZYcMPx.png)
 
+
+
 **m** editor written in **rust**, it's *modern and fast*. *m* means minial and modern, vims or emacs are just too old and hard to use. Think about how many time wasted when you try to save a file need permissions of sudo.
 So here we re-written a text editor in pure *rust* and designed a pretty new and modern editor which can be cross platform. Our dreaming eidtor is a weapon, so it must be simply and straight forward to use.
 Below the final design of our brand new *m editor*:
@@ -13,10 +15,11 @@ Below the final design of our brand new *m editor*:
 - `ctrl + e` jump curse to end;
 - `ctrl + d` copy current line to next;
 - `ctrl + k` delete current line;
-
 - `ctrl + c` copy select content;
 - `ctrl + v` paste copied content;
 - `ctrl + z` undo the last operation;
+
+
 
 Above shortcuts were already implemented in **m**! Just start and check it out, you can easily do your modification on *m*!
 
