@@ -18,10 +18,11 @@ with those short cut, you can use this editor in modern mode. beside, the most i
 - `ctrl + a` select all;
 - `ctrl + c` copy select content;
 - `ctrl + v` paste copied content;
-- `ctrl + z` undo copy or undo paste;
+- `ctrl + z` undo the last operation;
 - `shift + arrowkey` select content one the one;
 
-Do u support our brand new design of *m*? 😆 it should save lots of time in this way!! And very much intuitive!!
+Do u support our brand new design of *m*? 😆 it should save lots of time in this way!! And very much intuitive.
+
 
 ## Install
 
@@ -29,6 +30,11 @@ You should install rust and cargo, so that it can be built like this:
 
 ```
 cargo build --release
+```
+if you got some error of `#![feature] may not be used on stable channel`, you can simply do this:
+
+```
+rustup override set nightly
 ```
 
 ## Todo
